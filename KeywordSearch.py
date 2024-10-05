@@ -14,6 +14,7 @@ with open('scholarships.csv', mode='r', encoding='utf-8') as file:
         scholarships.append(row)
 
 # List to store matching scholarships
+
 matching_scholarships = []
 
 # Compile regular expressions for each keyword
