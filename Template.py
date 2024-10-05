@@ -9,7 +9,7 @@ import os
 
 
 # Configure the API key for Generative AI
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=st.secrets["API_KEY"])
 
 
 # Set the title of the app with a background color
