@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # Function to set background video
 def set_bg_video():
-    video_url = "https://media.istockphoto.com/id/2154818320/video/hyperlapse-aerial-view-smart-city-wireless-network-signal-data-transmission-high-speed-and.mp4?s=mp4-640x640-is&k=20&c=wmi66ui27aEtxpULSttCsneb1Lmry_9sRYs3i3ZB7_o="
+    video_url = "https://cdn.pixabay.com/video/2022/01/23/105446-670502919_tiny.mp4"
 
     st.markdown(
         f"""
