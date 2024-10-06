@@ -1,12 +1,16 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Main App",
-    page_icon="🏠",
-    layout="centered",  # or "wide"
-    initial_sidebar_state="collapsed",  # This sets the sidebar to start collapsed
+def main():
+    # Set up the home page layout
+    st.title("Career Quest")
+    st.subheader("Welcome to Career Quest")
+    st.write("Your journey towards a successful career starts here!")
 
-)
+    # Button to navigate to the Uni-Finder page
+    if st.button("Get Started"):
+        # Navigate to the Uni-finder page
+        st.experimental_set_query_params(page="Uni-finder")
+        st.experimental_rerun()
 
-st.title("Main Application Page")
-st.write("Welcome to the Main App!")
+if __name__ == "__main__":
+    main()
