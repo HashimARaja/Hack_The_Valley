@@ -81,6 +81,6 @@ set_bg_video()
 st.markdown("""
     <div class="container">
         <div class="title">CareerQuest</div>
-        <a href="https://careerquest1.streamlit.app/unifinder" class="get-started-button">GET STARTED</a>
+        <a href="https://careerquest1.streamlit.app/._Career_Path" class="get-started-button">GET STARTED</a>
     </div>
 """, unsafe_allow_html=True)
