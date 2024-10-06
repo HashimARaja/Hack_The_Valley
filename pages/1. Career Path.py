@@ -88,7 +88,7 @@ if user_input_1 and user_input_2:  # Check both user inputs
     response = model.generate_content(
         "for the following career path: " + x +
         "\nProvide a concise Education path and goals for this career path and include a variety of " +
-        p + " University programs to choose from and beginning, middle and end stage jobs (Provide Links for the Universities)"
+        p + " University programs to choose from and beginning, middle and end stage jobs. Wherever possible be informational and systematic; including prerequisites where necessary. (Provide Links for the Universities)"
     )
 
     # Display the response from the model
